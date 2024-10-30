@@ -17,6 +17,8 @@ The Building System is a customizable grid-based placement tool designed for Uni
   - Place buildings with the **Left Mouse Button**.
   - Delete buildings with the **Right Mouse Button**.
 
+![example-placement](https://github.com/user-attachments/assets/b87af183-df4b-4d37-8187-5af17f7b0c8c)
+
 ## How to Use
 
 ### Setting Up the Grid
