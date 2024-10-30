@@ -49,7 +49,7 @@ Material:
     - _LineColor: {r: 1, g: 1, b: 1, a: 1}
     - _Size: {r: 5, g: 5, b: 0, a: 0}
     - _SurroundColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TileColor: {r: 1, g: 0.5520086, b: 0.4666667, a: 1}
+    - _TileColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2673983868179804718

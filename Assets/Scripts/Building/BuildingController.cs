@@ -65,10 +65,14 @@ namespace BuildingSystem.Building
 
             RayToGrid(InputManager.Instance.MousePosition(), groundLayer, (RaycastHit hit) =>
             {
-                previewObject.transform.position = hit.point;
+                grid.GetIndexesFromPosition(hit.point, out int x, out int z);
+                Vector2Int rotationOffset = selectedBuilding.GetRotationOffset(currentDirection);
+                Vector3 buildingPosition = grid.GetWorldPosition(x, z) + new Vector3(rotationOffset.x, 0f, rotationOffset.y) * grid.GetCellSize();
+
+                previewObject.transform.position = buildingPosition;
                 previewObject.transform.rotation = Quaternion.Euler(0f, selectedBuilding.GetRotationAngle(currentDirection), 0f);
 
-                previewObject.AreaAvailableColor(CanBuild(hit.point, out int x, out int z));
+                previewObject.AreaAvailableColor(CanBuild(hit.point, out int i, out int j));
             });
         }
 
