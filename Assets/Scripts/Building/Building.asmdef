@@ -1,0 +1,17 @@
+{
+    "name": "Building",
+    "rootNamespace": "BuildingSystem.Building",
+    "references": [
+        "GUID:e93490fa58c592c4691ee43b53d3079d",
+        "GUID:4b0cc5b09dee5ae48bfbedf27513036a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

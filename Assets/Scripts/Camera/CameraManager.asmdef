@@ -1,0 +1,16 @@
+{
+    "name": "Camera",
+    "rootNamespace": "BuildingSystem.CameraManager",
+    "references": [
+        "GUID:e93490fa58c592c4691ee43b53d3079d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
